@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./css/nice-select.min.css" />
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="/" class="site-logo">
+                        <img src="./assets/images/osticket-supsys-white.png" alt="">
+                    </a>
+
+                    <div class="main-nav">
+                        <div class="nav-menu-wrap">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <div class="mobile-site-logo">
+                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
+                                </div>
+                                <div class="close-sidebar d-lg-none">
+                                    <i class="bi bi-x"></i>
+                                </div>
+                            </div>
+
+                            <nav class="nav-menu me-lg-5">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/Installation.html">Installation</a></li>
+                                    <li><a href="/contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="./create-ticket.html" class="Btn primary-btn">
+                                    <span class="show-content-one">Create Ticket</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="main-nav-overlay d-lg-none"></div>
+                    </div>
+
+                    <div class="d-lg-none">
+                        <span class="bars"><i class="bi bi-list"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+            <!-- ========================================
+                    Banner Section Start
+            ========================================= -->
+            <div class="banner">
+                <div class="banner-bg">
+                    <div class="rocket-shape d-none d-lg-block">
+                        <img src="./assets/images/roket.png" alt="">
+                    </div>
+                </div>
+                <div class="banner-wrapper">
+                    <div class="container">
+                        <div class="row gy-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="banner-content">
+                                    <h1>
+                                        Get expert help using osTicket, any time you need it.
+                                    </h1>
+                                    <p>Tell us what you need help with, the purpose of this project and problems we,re
+                                        solving. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum
+                                        aliquid voluptates dolorem soluta culpa inventore amet ut possimus blanditiis!
+                                    </p>
+                                    <div class="banner-search">
+                                        <form class="banner-searchform" action="#">
+                                            <input type="search" placeholder="Ask a Question...">
+                                            <button type="submit" class="search-btn">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8 col-sm-10 col-10 offset-lg-1">
+                                <div class="banner-img position-relative">
+                                    <img src="./assets/images/home-banner.png" alt="">
+                
+                                    <div class="banner-shape shape-1 slideTopBottom">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:svgjs="http://svgjs.com/svgjs" x="0" y="0" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="m421.7 146.3-120-120c-1.5-1.5-3.5-2.3-5.7-2.3H96c-4.4 0-8 3.6-8 8v448c0 4.4 3.6 8 8 8h320c4.4 0 8-3.6 8-8V152c0-2.1-.8-4.2-2.3-5.7zM304 51.3l92.7 92.6H304zM408 472H104V40h184v112c0 4.4 3.6 8 8 8h112z"
+                                                    data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M354 220c0 4.4-3.6 8-8 8H166c-4.4 0-8-3.6-8-8s3.6-8 8-8h180c4.4 0 8 3.6 8 8zM354 268c0 4.4-3.6 8-8 8H166c-4.4 0-8-3.6-8-8s3.6-8 8-8h180c4.4 0 8 3.6 8 8zM354 316c0 4.4-3.6 8-8 8H166c-4.4 0-8-3.6-8-8s3.6-8 8-8h180c4.4 0 8 3.6 8 8zM354 364c0 4.4-3.6 8-8 8H166c-4.4 0-8-3.6-8-8s3.6-8 8-8h180c4.4 0 8 3.6 8 8zM354 412c0 4.4-3.6 8-8 8H166c-4.4 0-8-3.6-8-8s3.6-8 8-8h180c4.4 0 8 3.6 8 8z"
+                                                    data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="banner-shape shape-2 slideLeftRight">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:svgjs="http://svgjs.com/svgjs" x="0" y="0" viewBox="0 0 512.001 512"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M412 136c0 5.52 4.48 10 10 10s10-4.48 10-10-4.48-10-10-10-10 4.48-10 10zM452 256c0 12.809-1.285 25.594-3.816 38-1.106 5.41 2.386 10.691 7.796 11.797.676.14 1.348.207 2.012.207 4.653 0 8.82-3.27 9.79-8.004 2.8-13.723 4.218-27.852 4.218-42 0-31.488-6.828-61.79-20.3-90.063-2.376-4.984-8.34-7.101-13.329-4.726-4.988 2.375-7.101 8.344-4.726 13.332C445.825 200.105 452 227.512 452 256zM306 346h-10V216c0-5.523-4.477-10-10-10h-80c-5.523 0-10 4.477-10 10v40c0 5.523 4.477 10 10 10h10v80h-10c-5.523 0-10 4.477-10 10v40c0 5.523 4.477 10 10 10h100c5.523 0 10-4.477 10-10v-40c0-5.523-4.477-10-10-10zm-10 40h-80v-20h10c5.523 0 10-4.477 10-10V256c0-5.523-4.477-10-10-10h-10v-20h60v130c0 5.523 4.48 10 10 10h10zM256 186c22.055 0 40-17.945 40-40s-17.945-40-40-40-40 17.945-40 40 17.945 40 40 40zm0-60c11.027 0 20 8.973 20 20s-8.973 20-20 20-20-8.973-20-20 8.973-20 20-20zm0 0"
+                                                    data-original="#000000"></path>
+                                                <path
+                                                    d="M256 0C118.023 0 0 117.8 0 256c0 47.207 13.527 97.41 36.336 135.383L.512 498.84a9.999 9.999 0 0 0 12.652 12.644l107.457-35.82C158.59 498.477 208.793 512 256 512c138.012 0 256-117.816 256-256C512 117.988 394.187 0 256 0zm0 492c-45.285 0-93.418-13.363-128.758-35.746a9.996 9.996 0 0 0-8.515-1.04l-92.915 30.974 30.973-92.915a9.987 9.987 0 0 0-1.039-8.515C33.363 349.422 20 301.285 20 256 20 128.074 128.074 20 256 20s236 108.074 236 236-108.074 236-236 236zm0 0"
+                                                    data-original="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                
+                                    <div class="banner-shape shape-3 slideTopBottom">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:svgjs="http://svgjs.com/svgjs" x="0" y="0" viewBox="0 0 512 512.001"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M448.246 76.563c-74.504 0-172.531-25.141-207.473-71.72-4.648-5.66-13.003-6.476-18.664-1.827a13.042 13.042 0 0 0-1.828 1.828C185.336 51.418 87.31 76.563 12.81 76.563 5.734 76.563 0 82.296 0 89.37V255.86C0 396.687 122.293 481.586 227.012 511.5c2.297.668 4.734.668 7.031 0 104.719-29.914 227.012-114.813 227.012-255.64V89.37c0-7.074-5.735-12.808-12.809-12.808zm-12.808 179.296c0 125.02-109.56 201.66-204.91 230.004C135.175 457.52 25.612 380.88 25.612 255.86V101.953C99.641 99.45 187.18 75.586 230.527 31.988 273.88 75.586 361.414 99.45 435.441 101.95v153.91zm0 0"
+                                                    data-original="#000000" class=""></path>
+                                                <path
+                                                    d="M179.3 204.633v25.613h-12.808c-7.074 0-12.808 5.734-12.808 12.809v102.453c0 7.074 5.734 12.808 12.808 12.808h128.07c7.075 0 12.81-5.734 12.81-12.808V243.055c0-7.075-5.735-12.809-12.81-12.809h-12.808v-25.613c0-28.293-22.934-51.227-51.227-51.227-28.293 0-51.226 22.934-51.226 51.227zm102.454 128.07H179.3V255.86h102.453zm-25.613-128.07v25.613h-51.227v-25.613c0-14.145 11.465-25.613 25.613-25.613 14.145 0 25.614 11.468 25.614 25.613zm0 0"
+                                                    data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                
+                                    <div class="banner-shape shape-4 slideLeftRight">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns:svgjs="http://svgjs.com/svgjs" x="0" y="0" viewBox="0 0 422.139 422.139"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M363.631 174.498h-1.045v-25.6C362.586 66.664 295.923 0 213.688 0S64.79 66.664 64.79 148.898v25.6h-6.269c-22.988 0-40.751 20.375-40.751 43.886v65.306c-.579 22.787 17.425 41.729 40.212 42.308.18.005.359.008.539.01h38.661c5.476-.257 9.707-4.906 9.449-10.382a9.695 9.695 0 0 0-.045-.59v-128c0-6.269-3.657-12.539-9.404-12.539H85.688v-25.6c0-70.692 57.308-128 128-128s128 57.308 128 128v25.6h-11.494c-5.747 0-9.404 6.269-9.404 12.539v128c-.583 5.451 3.363 10.343 8.814 10.926.196.021.393.036.59.045h12.016l-1.045 1.567a82.545 82.545 0 0 1-66.351 32.914c-5.708-27.989-33.026-46.052-61.015-40.343-23.935 4.881-41.192 25.843-41.385 50.27.286 28.65 23.594 51.724 52.245 51.722a53.812 53.812 0 0 0 37.616-16.196 45.978 45.978 0 0 0 12.539-25.078 103.443 103.443 0 0 0 83.069-41.273l9.927-14.629c22.465-1.567 36.571-15.673 36.571-36.049v-65.306c.001-22.463-16.717-49.108-40.75-49.108zM85.688 305.11H58.521c-11.25-.274-20.148-9.615-19.874-20.865.005-.185.012-.37.021-.556v-65.306c0-12.016 8.359-22.988 19.853-22.988h27.167V305.11zm161.437 86.204a30.826 30.826 0 0 1-22.465 9.927c-16.998-.27-30.792-13.834-31.347-30.825-.007-17.024 13.788-30.83 30.812-30.837 17.024-.007 30.83 13.788 30.837 30.812v.025a27.692 27.692 0 0 1-7.837 20.898zm136.359-102.4c0 14.106-13.584 16.196-19.853 16.196h-21.943V195.396h21.943c11.494 0 19.853 16.196 19.853 28.212v65.306z"
+                                                    data-original="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================
+                    About Section Start
+            ========================================= -->
+            <section class="about pt-120">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-5 order-lg-1 order-2 pe-lg-5">
+                            <div>
+                                <img src="./assets/images/about.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 order-lg-2 order-1">
+                            <div class="section-title title-left">
+                                <span class="sub-title">WHO WE ARE</span>
+                                <h3 class="sec-title">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </h3>
+                            </div>
+
+                            <div class="about-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore
+                                    consequuntur est vero quas. Dignissimos
+                                    provident odio debitis maxime? Tempore voluptate recusandae libero impedit
+                                    earum. Quam architecto necessitatibus
+                                    accusamus laborum?
+                                </p>
+
+                                <a href="#" class="Btn secondary-btn secondary-btn-lg btnwithicon mt-30">Explore Us <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================
+                    Choose Your Support Section Start
+            ========================================= -->
+            <section class="pt-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto">
+                            <div class="section-title text-center title-center">
+                                <span class="sub-title">Choose Your Support</span>
+                                <h3 class="sec-title">
+                                    Browse All Topics
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <a href="#" class="support-item">
+                                <span>
+                                    <img src="./assets/images/use.png" alt="" loading="lazy">
+                                </span>
+                                <h4 class="pt-3 pb-2">How to use osTicket</h4>
+                                <p>Helpful information on how to use deskoto.</p>
+                            </a>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <a href="#" class="support-item">
+                                <span>
+                                    <img src="./assets/images/start.png" alt="" loading="lazy">
+                                </span>
+                                <h4 class="pt-3 pb-2">Getting Started</h4>
+                                <p>Ask questions and share your ideas Now!</p>
+                            </a>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <a href="#" class="support-item">
+                                <span>
+                                    <img src="./assets/images/ticket.png" alt="" loading="lazy">
+                                </span>
+                                <h4 class="pt-3 pb-2">Ticket System</h4>
+                                <p>Built to help you solve issues faster than ever.</p>
+                            </a>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <a href="#" class="support-item">
+                                <span>
+                                    <img src="./assets/images/work.png" alt="" loading="lazy">
+                                </span>
+                                <h4 class="pt-3 pb-2">Troubleshooting</h4>
+                                <p>Answer to most common configuration issue.</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================
+                  Any Questions Section Start
+            ========================================= -->
+            <section class="pt-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mx-auto">
+                            <div class="section-title title-center text-center">
+                                <span class="sub-title">Got Any Questions</span>
+                                <h3 class="sec-title">
+                                    We've Got Answers
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 pe-xl-5">
+                            <div class="questions-left">
+                                <div class="nav flex-column gap-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-home" type="button" role="tab"
+                                        aria-controls="v-pills-home" aria-selected="true">Billing and Payments
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+
+                                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                                        aria-controls="v-pills-profile" aria-selected="false">Users and Collaboration <i
+                                            class="bi bi-chevron-right"></i></button>
+                                    <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-disabled" type="button" role="tab"
+                                        aria-controls="v-pills-disabled" aria-selected="false">Features and
+                                        Functionalities <i class="bi bi-chevron-right"></i></button>
+                                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-messages" type="button" role="tab"
+                                        aria-controls="v-pills-messages" aria-selected="false">Ticket System <i
+                                            class="bi bi-chevron-right"></i></button>
+                                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings" type="button" role="tab"
+                                        aria-controls="v-pills-settings" aria-selected="false">Setting <i
+                                            class="bi bi-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab" tabindex="0">
+                                    <div class="custiom-accordion">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingOne">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Accordion Item #1
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                                    aria-labelledby="flush-headingOne"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the first item's
+                                                        accordion body.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTwo">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Accordion Item #2
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingTwo"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the second item's
+                                                        accordion body. Let's imagine this being
+                                                        filled with some actual content.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        Accordion Item #3
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingThree"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the third item's
+                                                        accordion body. Nothing more exciting
+                                                        happening here in terms of content, but just filling up the
+                                                        space to
+                                                        make it look, at least at first
+                                                        glance, a bit more representative of how this would look in a
+                                                        real-world application.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingFour">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                        aria-expanded="false" aria-controls="flush-collapseFour">
+                                                        Accordion Item #4
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingFour"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the third item's
+                                                        accordion body. Nothing more exciting
+                                                        happening here in terms of content, but just filling up the
+                                                        space to
+                                                        make it look, at least at first
+                                                        glance, a bit more representative of how this would look in a
+                                                        real-world application.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingFive">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                                        aria-expanded="false" aria-controls="flush-collapseFive">
+                                                        Accordion Item #3
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingFive"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the third item's
+                                                        accordion body. Nothing more exciting
+                                                        happening here in terms of content, but just filling up the
+                                                        space to
+                                                        make it look, at least at first
+                                                        glance, a bit more representative of how this would look in a
+                                                        real-world application.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                    Tab Content 2</div>
+                                <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                                    aria-labelledby="v-pills-disabled-tab" tabindex="0">Tab Content 3</div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                    aria-labelledby="v-pills-messages-tab" tabindex="0">Tab Content 4</div>
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                    aria-labelledby="v-pills-settings-tab" tabindex="0">Tab Content 5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================
+                    Didn’t Find Section Start
+            ========================================= -->
+            <section class="find mt-120">
+                <div class="container find-container">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-8 mx-auto">
+                            <div class="section-title  title-light title-center text-center">
+                                <span class="sub-title">Didn’t Find What</span>
+                                <h3 class="sec-title">
+                                    You Were Looking For?
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-7 col-md-8 mx-auto text-center">
+                            <p class="find-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                                nobis minima, unde
+                                alias vitae quas sequi quo quasi officia delectus.</p>
+
+                            <div
+                                class="d-flex align-items-center justify-content-center flex-column flex-sm-row gap-lg-4 gap-3 button-group">
+                                <a href="./create-ticket.html" class="Btn primary-btn primary-btn-lg">Create Ticket</a>
+                                <a href="#" class="Btn secondary-btn secondary-btn-lg">Send us an email </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="find-bg">
+                        <img src="./assets/images/find-bg.png" alt="" loading="lazy">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-xl-4 col-lg-5 col-md-8">
+                            <div class="">
+                                <a class="site-logo">
+                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
+                                </a>
+
+                                <div class="mt-4">
+                                    <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                                        ut officia rem deleniti! Quisquam excepturi maiores sint amet ipsam perspiciatis
+                                        odit dolores veniam voluptate, aperiam nam repellat et voluptates 
+                                        </p>
+
+                                    <div class="footer-social">
+                                        <a href="#" class="contact-icon"><i class="bi bi-google"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-facebook"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-linkedin"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-twitter"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 offset-xl-1 col-lg-3 col-md-4 offset-md-0">
+                            <div class="footer-item">
+                                <h5 class="footer-item-title">Necessary Link</h5>
+                                <div class="footer-menu">
+                                    <a href="#">About us</a>
+                                    <a href="#">Service</a>
+                                    <a href="#">Contact</a>
+                                    <a href="#">Support Center</a>
+                                    <a href="#">Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="footer-item newsletter">
+                                <h5 class="footer-item-title">Sign up for the newsletter</h5>
+                                <form action="" class="newsletter-form">
+                                    <div class="newsletter-form-box">
+                                        <input type="text" placeholder="Email address">
+                                        <button type="button">Submit</button>
+                                    </div>
+
+                                    <div class="form-check form-check-inline mt-4">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">I’m okay with getting
+                                            emails
+                                            and having that activity tracked to improve my experience.</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/nice-select.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>

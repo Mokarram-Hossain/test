@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./css/nice-select.min.css" />
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="/" class="site-logo">
+                        <img src="./assets/images/osticket-supsys-white.png" alt="">
+                    </a>
+
+                    <div class="main-nav">
+                        <div class="nav-menu-wrap">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <div class="mobile-site-logo">
+                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
+                                </div>
+                                <div class="close-sidebar d-lg-none">
+                                    <i class="bi bi-x"></i>
+                                </div>
+                            </div>
+
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/Installation.html">Installation</a></li>
+                                    <li><a href="/contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="./create-ticket.html" class="Btn primary-btn">
+                                    <span class="show-content-one">Create Ticket</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="main-nav-overlay d-lg-none"></div>
+                    </div>
+
+                    <div class="d-lg-none">
+                        <span class="bars"><i class="bi bi-list"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+            <!-- ========================================
+                    Banner Section Start
+            ========================================= -->
+            <div class="banner inslall-bn">
+                <div class="banner-bg"></div>
+                <div class="banner-container">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class=" col-md-6">
+                                <div class="banner-content">
+                                    <h1>
+                                        Get expert help using osTicket, any time you need it.
+                                    </h1>
+                                    <p>Tell us what you need help with, the purpose of this project and problems we,re
+                                        solving. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum
+                                        aliquid voluptates dolorem soluta culpa inventore amet ut possimus blanditiis!
+                                    </p>
+                                    <div class="banner-search mt-5">
+                                        <form class="banner-searchform" action="#">
+                                            <input type="search" placeholder="Ask a Question...">
+                                            <button type="submit" class="search-btn">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="">
+                                    <img src="./assets/images/install_1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================
+                        Document Section Start
+            ========================================= -->
+            <section class="pt-120">
+                <div class="container">
+                    <div class="document">
+                        <!-- Document left -->
+                        <div class="document-sidebar">
+                            <div class="document-left">
+                                <div class="d-flex align-items-center justify-content-between w-100 mb-4">
+                                    <div class="mobile-site-logo">
+                                        <img src="./assets/images/osticket-supsys-sm.png" alt="">
+                                    </div>
+                                    <div class="close-sidebar close-document-menu d-lg-none">
+                                        <i class="bi bi-x"></i>
+                                    </div>
+                                </div>
+                                <ul class="document-menus div-sticky">
+                                    <li class="document-menu">
+                                        <h6>Getting Started</h6>
+                                        <div class="faq-wrap">
+                                            <div class="accordion " id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button " type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Getting Started
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <ul class="document-sub-menus">
+                                                                <li class="document-sub-menu">
+                                                                    <a href="#">Overview</a>
+                                                                </li>
+
+                                                                <li class="document-sub-menu">
+                                                                    <a href="#">Changelog</a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="document-menu">
+                                        <h6>Requirements</h6>
+                                        <div class="faq-wrap">
+                                            <div class="accordion " id="forRequirement">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="requirement-heading">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#collapse-requirement" aria-expanded="true"
+                                                            aria-controls="collapse-requirement">
+                                                            System Requirement
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse-requirement" class="accordion-collapse collapse"
+                                                        aria-labelledby="requirement-heading"
+                                                        data-bs-parent="#forRequirement">
+                                                        <div class="accordion-body">
+                                                            <ul class="document-sub-menus">
+                                                                <li class="document-sub-menu">
+                                                                    <a href="#">Requirements</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="document-menu">
+                                        <h6>Process</h6>
+                                        <div class="faq-wrap">
+                                            <div class="accordion " id="forProcess">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="Process-heading">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapse-Process"
+                                                            aria-expanded="true" aria-controls="collapse-Process">
+                                                            Installation Process
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse-Process" class="accordion-collapse collapse"
+                                                        aria-labelledby="Process-heading" data-bs-parent="#forProcess">
+                                                        <div class="accordion-body">
+                                                            <ul class="document-sub-menus">
+                                                                <li class="document-sub-menu"><a href="#">Server
+                                                                        Install on Local Server & Hosting</a></li>
+                                                                <li class="document-sub-menu"><a href="#">Server
+                                                                        Installing Guide For Nginx server</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="document-overlay d-lg-none"></div>
+                        </div>
+
+                        <!-- Document right-->
+                        <div class="document-right">
+                            <div class="d-flex align-items-center short-docu-menu d-lg-none">
+                                <div class="docu-menu-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div>
+                                    <span>Getting Started</span>
+                                    >
+                                    <span><a href="#" class="text-muted">Overview</a></span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <div class="mb-3">
+                                        <h6>Overview</h6>
+                                        <h2 class="pt-2">About osTicket System</h2>
+                                    </div>
+
+                                    <p class="mb-3">XSender is a mass email, text SMS and WhatsApp message sending
+                                        web
+                                        application by which email can be sent via mt-120P, Text
+                                        SMS message via most popular SMS API gateway using powerful android SMS
+                                        sending app
+                                        which supports from android version
+                                        5.0 and above. You can also use your own country's mobile network sim for
+                                        sending SMS
+                                        and also WhatsApp Message can be
+                                        sent scanning WhatsApp app.</p>
+                                    <p class="mb-3">You can manage your customer database from XSender's modern
+                                        admin panel and
+                                        also buy dynamic subscription plans for SMS and Email plan via different
+                                        payment
+                                        gateways.</p>
+                                </div>
+
+                                <div class="pt-3">
+                                    <h4 class="mb-2">
+                                        How it work
+                                    </h4>
+                                    <p class="mb-5">
+                                        XSender is a mass email, text SMS and WhatsApp message sending web
+                                        application by which email can be sent via mt-120P, Text
+                                        SMS message via most popular SMS API gateway using powerful android SMS
+                                        sending app which supports from android version
+                                        5.0 and above. You can also use your own country's mobile network sim for
+                                        sending SMS and also WhatsApp Message can be
+                                        sent scanning WhatsApp app.
+                                    </p>
+
+                                    <div>
+                                        <img src="./assets/images/tour-ui.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-5 col-md-8">
+                            <div class="">
+                                <a class="site-logo">
+                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
+                                </a>
+
+                                <div class="mt-4">
+                                    <h5 class=" footer-item-title">
+                                        we are on social media
+                                    </h5>
+                                    <p class="fs-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+                                        ratione pariatur iste
+                                        quae
+                                        voluptatum rem.</p>
+
+                                    <div class="footer-social">
+                                        <a href="#" class="contact-icon"><i class="bi bi-google"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-facebook"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-linkedin"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-twitter"></i></a>
+                                        <a href="#" class="contact-icon"><i class="bi bi-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 offset-xl-1 col-lg-3 col-md-4 offset-md-0">
+                            <div class="footer-item">
+                                <h5 class="footer-item-title">Necessary Link</h5>
+                                <div class="footer-menu">
+                                    <a href="#">About us</a>
+                                    <a href="#">Service</a>
+                                    <a href="#">Contact</a>
+                                    <a href="#">Support Center</a>
+                                    <a href="#">Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="footer-item newsletter">
+                                <h5 class="footer-item-title">Sign up for the newsletter</h5>
+                                <form action="" class="newsletter-form">
+                                    <div class="newsletter-form-box">
+                                        <input type="text" placeholder="Email address">
+                                        <button type="button">Submit</button>
+                                    </div>
+
+                                    <div class="form-check form-check-inline mt-4">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">I’m okay with getting
+                                            emails
+                                            and having that activity tracked to improve my experience.</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/nice-select.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
