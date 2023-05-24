@@ -1,15 +1,18 @@
 /* Extra small devices (phones, 320px to 425px) */
 @media only screen and (min-width: 320px) {
-  .pt-120 {
+  .reply-text p{
+    font-size: 14px;
+  }
+  .pt-100 {
     padding-top: 60px;
   }
-  .pb-120 {
+  .pb-100 {
     padding-top: 60px;
   }
-  .mb-120 {
+  .mb-100 {
     margin-bottom: 60px;
   }
-  .mt-120 {
+  .mt-100 {
     margin-top: 60px;
   }
   .primary-btn-lg,
@@ -31,7 +34,6 @@
   ===================================== */
   .header {
     width: 100%;
-    top: 0;
   }
   .main-nav {
     position: fixed;
@@ -121,9 +123,6 @@
   right: -30px;
   bottom: 0;
 }
-  .rocket-shape {
-    display: none;
-  }
 
   .banner-content > h5 {
     margin-bottom: 15px;
@@ -215,7 +214,6 @@
     margin-bottom: 20px;
   }
   .replay-container {
-    margin-top: -170px;
     padding: 20px 15px;
   }
   .chat-container {
@@ -227,7 +225,6 @@
            Create Ticket Page Start
   ===================================== */
   .contact-right {
-    margin-top: 0;
     padding: 20px;
   }
   .contact-bg-shape > svg {
@@ -255,10 +252,10 @@
 
 @media only screen and (min-width: 425px) {
 
-  .shape-3 {
-    right: -30px;
-    bottom: 0;
-}
+    .shape-3 {
+      right: -30px;
+      bottom: 0;
+  }
 }
 /* Small devices (portrait tablets and large phones, 576px and 767px) */
 
@@ -272,18 +269,19 @@
     font-size: 16px;
   }
 }
+
 /* Medium devices (landscape tablets, 768px and 991px) */
 @media only screen and (min-width: 768px) {
-  .pt-120 {
+  .pt-100 {
     padding-top: 75px;
   }
-  .pb-120 {
+  .pb-100 {
     padding-top: 75px;
   }
-  .mb-120 {
+  .mb-100 {
     margin-bottom: 75px;
   }
-  .mt-120 {
+  .mt-100 {
     margin-top: 75px;
   }
   .primary-btn-lg,
@@ -325,37 +323,23 @@
   }
   .ticket-notification {
     display: inline-block;
+    padding: 15px 18px;
+    
   }
   .replay-container {
     padding: 30px 25px;
-  }
-
-  /* =====================================
-           Create Ticket Page Start
-  ===================================== */
-  .contact-bg-shape-1 {
-    left: unset;
-    bottom: 10%;
-    right: 30%;
-  }
-  .contact-bg-shape-2 {
-    right: 5%;
-    bottom: 20%;
-  }
-  .contact-bg-shape-3 {
-    left: unset;
-    right: 30%;
-    top: 15%;
-  }
-  .contact-bg-shape-4 {
-    right: 5%;
-    top: 30%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and 1199px) */
 @media only screen and (min-width: 992px) {
 
+  .reply-text p{
+    font-size: 15px;
+  }
+  .chat-container {
+    padding: 20px;
+  }
   .footer-item-title {
     margin-bottom: 30px;
     text-transform: capitalize;
@@ -374,7 +358,6 @@
         Mobile And Header menu Start
   ===================================== */
   .header {
-    top: 10px;
     padding: 15px 0;
   }
   .main-nav {
@@ -415,9 +398,6 @@
 
   .banner-wrapper{
     padding: 200px 10px;
-  }
-  .rocket-shape {
-    width: 150px;
   }
   .banner-content > h5 {
     margin-bottom: 20px;
@@ -488,35 +468,23 @@
     display: none;
   }
   .contact-right {
-    margin-top: -444px;
     padding: 30px;
-  }
-  /* =====================================
-           Create Ticket Page Start
-  ===================================== */
-  .contact-bg-shape > svg {
-    width: 50px;
-  }
-  .contact-bg-shape-1 {
-    bottom: unset;
-    right: 45%;
-    top: 30%;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .pt-120 {
-    padding-top: 110px;
+  .pt-100 {
+    padding-top: 100px;
   }
-  .pb-120 {
-    padding-bottom: 110px;
+  .pb-100 {
+    padding-bottom: 100px;
   }
-  .mt-120 {
-    margin-top: 110px;
+  .mt-100 {
+    margin-top: 100px;
   }
-  .mb-120 {
-    margin-bottom: 110px;
+  .mb-100 {
+    margin-bottom: 100px;
   }
   /* .banner {
     margin-top: 20px;
