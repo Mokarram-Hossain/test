@@ -5,7 +5,7 @@
     margin-top: 25px;
   }
   .reply-text p{
-    font-size: 14px;
+    font-size: 13px;
   }
   .pt-100 {
     padding-top: 60px;
@@ -221,18 +221,17 @@
     margin-bottom: 20px;
   }
   .replay-container {
-    padding: 20px 15px;
+    padding: 20px 10px;
   }
   .chat-container {
-    padding: 15px;
-    margin-bottom: 40px;
+    padding: 20px 15px;
   }
 
   /* =====================================
            Create Ticket Page Start
   ===================================== */
   .contact-right {
-    padding: 20px;
+    padding: 20px 15px;
   }
   .contact-bg-shape > svg {
     width: 45px;
@@ -268,6 +267,10 @@
 
 @media only screen and (min-width: 576px) {
 
+  .replay-container {
+    padding: 25px 20px;
+  }
+
   .banner-wrapper{
     padding: 120px 10px;
   }
@@ -279,6 +282,10 @@
 
 /* Medium devices (landscape tablets, 768px and 991px) */
 @media only screen and (min-width: 768px) {
+
+  .contact-option > h4 {
+    font-size: 24px;
+  }
   .pt-100 {
     padding-top: 75px;
   }
@@ -333,9 +340,6 @@
     padding: 15px 18px;
     
   }
-  .replay-container {
-    padding: 30px 25px;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and 1199px) */
@@ -349,7 +353,7 @@
     font-size: 15px;
   }
   .chat-container {
-    padding: 20px;
+    padding: 25px 20px;
   }
   .footer-item-title {
     margin-bottom: 30px;
@@ -445,7 +449,7 @@
     margin-bottom: 20px;
   }
   .replay-container {
-    padding: 45px 35px;
+    padding: 40px 30px;
   }
 
   /* =====================================
