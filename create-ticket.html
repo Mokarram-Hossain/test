@@ -1,253 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
-        <link rel="stylesheet" href="./css/nice-select.min.css" />
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/media.css">
-    </head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/nice-select.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
 
-    <body>
+<body>
 
-        <header class="header">
-            <div class="container">
-                <div class="header-wrap">
-                    <a href="/" class="site-logo">
-                        <img src="./assets/images/osticket-supsys-white.png" alt="">
-                    </a>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+                <a href="/" class="site-logo">
+                    <img src="./assets/images/logo.svg" alt="">
+                </a>
 
-                    <div class="main-nav">
-                        <div class="nav-menu-wrap">
-                            <div class="d-flex align-items-center justify-content-between w-100">
-                                <div class="mobile-site-logo">
-                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
-                                </div>
-                                <div class="close-sidebar d-lg-none">
-                                    <i class="bi bi-x"></i>
-                                </div>
+                <div class="main-nav">
+                    <div class="nav-menu-wrap">
+                        <div class="d-flex align-items-center justify-content-between w-100">
+                            <div class="mobile-site-logo">
+                                <img src="./assets/images/osticket-supsys-sm.png" alt="">
                             </div>
-
-                            <nav class="nav-menu">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/Installation.html">Installation</a></li>
-                                    <li><a href="/contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-
-                            <div class="d-flex align-items-center gap-4">
-                                <a href="./create-ticket.html" class="Btn primary-btn">
-                                    <span class="show-content-one">Create Ticket</span>
-                                </a>
+                            <div class="close-sidebar d-lg-none">
+                                <i class="bi bi-x"></i>
                             </div>
-
                         </div>
-                        <div class="main-nav-overlay d-lg-none"></div>
-                    </div>
 
-                    <div class="d-lg-none">
-                        <span class="bars"><i class="bi bi-list"></i></span>
+                        <nav class="nav-menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/Installation.html">Installation</a></li>
+                                <li><a href="/contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="d-flex align-items-center gap-4">
+                            <a href="./create-ticket.html" class="Btn primary-btn">
+                                <span class="show-content-one">Create Ticket</span>
+                            </a>
+                        </div>
+
                     </div>
+                    <div class="main-nav-overlay d-lg-none"></div>
                 </div>
 
+                <div class="d-lg-none">
+                    <span class="bars"><i class="bi bi-list"></i></span>
+                </div>
             </div>
-        </header>
 
-        <main>
-            <div class="inner-banner">
-                <div class="container">
-                    <h1 class="breadcrumb-title">Creat Ticket</h1>
-                  <nav aria-label="breadcrumb">
+        </div>
+    </header>
+
+    <main>
+        <div class="inner-banner">
+            <div class="container">
+                <h1 class="breadcrumb-title">Creat Ticket</h1>
+                <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
                     </ol>
-                  </nav>
-                </div>
+                </nav>
             </div>
+        </div>
 
-            <!-- ========================================
+        <!-- ========================================
                   Contact Section Start
             ========================================= -->
-            <section class="pt-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 mx-auto">
-                            <form action="#" class="ticket-form form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="section-title title-left">
-                                            <span class="sub-title">Create Ticket</span>
-                                            <h3 class="sec-title">
-                                                You Were Looking For?
-                                            </h3>
-                                        </div>
+        <section class="pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <form action="#" class="ticket-form form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="section-title title-left">
+                                        <span class="sub-title">Create Ticket</span>
+                                        <h3 class="sec-title">
+                                            You Were Looking For?
+                                        </h3>
                                     </div>
+                                </div>
 
-                                    <div class="col-md-6 text-end">
-                                        <div class="ticket-notification">
-                                            <h6>Ticket created successfully</h6>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <a href="./ticket-replay.html" class="Btn secondary-btn btn--sm">Your Ticket</a>
+                                <div class="col-md-6 text-end">
+                                    <div class="ticket-notification">
+                                        <h6>Ticket created successfully</h6>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                        <a href="./ticket-replay.html" class="Btn secondary-btn btn--sm">Your Ticket</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" id="name" placeholder="Jone wick">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="email" class="form-label">Your Email</label>
+                                        <input type="email" id="email" placeholder="jonewick@gamil.com">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" id="name" placeholder="Enter your subject">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="subject" class="form-label">Categories</label>
+                                        <select id="subject">
+                                            <option selected>Categorie 1</option>
+                                            <option value="1">Categorie 2</option>
+                                            <option value="2">Categorie 3</option>
+                                            <option value="3">Categorie 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-inner mt-4 mt-md-0">
+                                        <label for="message" class="form-label">Your Message</label>
+                                        <textarea id="message" rows="3" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="ticketFile" class="form-label">Your Message</label>
+                                        <div class='file-input'>
+                                            <input type='file'>
+                                            <span class='button'>Choose</span>
+                                            <span class='label' data-js-label>No file selected</label>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="name" class="form-label">Your Name</label>
-                                            <input type="text" id="name" placeholder="Jone wick">
-                                        </div>
+                                <div class="col-md-6">
+                                    <div class="form-inner">
+                                        <label for="subject" class="form-label">Priorities</label>
+                                        <select id="subject">
+                                            <option selected>Priority 1</option>
+                                            <option value="1">Priority 2</option>
+                                            <option value="2">Priority 3</option>
+                                            <option value="3">Priority 4</option>
+                                        </select>
                                     </div>
+                                </div>
 
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="email" class="form-label">Your Email</label>
-                                            <input type="email" id="email" placeholder="jonewick@gamil.com">
-                                        </div>
-                                    </div>
+                                <div class="col-md-6 mt-4">
+                                    <button type="button"
+                                        class="Btn primary-btn primary-btn-lg btnwithicon  submit-btn text-center">Submit
+                                        Ticket <i class="bi bi-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="creat-ticket-info">
+                            Tell us!
+                            Add as much detail as possible, including site and page name.
+                            Show us!
+                            Add a screenshot or a link to a video.
+                            Caution
+                            Ticket response time can be up to 2 business day.
+                            Response Time
+                            Our support team operates six days a week, from 10:00 AM to 8:00 PM in Bangladesh Standard
+                            Time (GMT+6), and strives to handle each ticket in a timely manner. However, our response
+                            time may be delayed by one or two business days during every weekend or government holiday.
+                            Important Notice
+                            <span>If a ticket remains unresponsive for more than one or two business
+                                days or is unrelated to our support items, it will be locked. Additionally, duplicate
+                                ticket issues may also result in ticket locking. Thank you for your cooperation.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="subject" class="form-label">Subject</label>
-                                            <input type="text" id="name" placeholder="Enter your subject">
-                                        </div>
-                                    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-4 col-lg-5 col-md-8">
+                        <div class="">
+                            <a class="site-logo">
+                                <img src="./assets/images/logo.svg" alt="">
+                            </a>
 
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="subject" class="form-label">Categories</label>
-                                            <select id="subject">
-                                                <option selected>Categorie 1</option>
-                                                <option value="1">Categorie 2</option>
-                                                <option value="2">Categorie 3</option>
-                                                <option value="3">Categorie 4</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                            <div class="mt-4">
+                                <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                                    ut officia rem deleniti! Quisquam excepturi maiores sint amet ipsam perspiciatis
+                                    odit dolores veniam voluptate, aperiam nam repellat et voluptates
+                                </p>
 
-                                    <div class="col-12">
-                                        <div class="form-inner mt-4 mt-md-0">
-                                            <label for="message" class="form-label">Your Message</label>
-                                            <textarea id="message" rows="3" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
+                                <div class="footer-social">
+                                    <a href="#" class="contact-icon"><i class="bi bi-google"></i></a>
+                                    <a href="#" class="contact-icon"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="contact-icon"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="contact-icon"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="contact-icon"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="ticketFile" class="form-label">Your Message</label>
-                                            <div class='file-input'>
-                                                <input type='file'>
-                                                <span class='button'>Choose</span>
-                                                <span class='label' data-js-label>No file selected</label>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 offset-md-0">
+                        <div class="footer-item">
+                            <h5 class="footer-item-title">Necessary Link</h5>
+                            <div class="footer-menu">
+                                <a href="#">About us</a>
+                                <a href="#">Service</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Support Center</a>
+                                <a href="#">Documentation</a>
+                            </div>
+                        </div>
+                    </div>
 
-                                    <div class="col-md-6">
-                                        <div class="form-inner">
-                                            <label for="subject" class="form-label">Priorities</label>
-                                            <select id="subject">
-                                                <option selected>Priority 1</option>
-                                                <option value="1">Priority 2</option>
-                                                <option value="2">Priority 3</option>
-                                                <option value="3">Priority 4</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 offset-md-0">
+                        <div class="footer-item">
+                            <h5 class="footer-item-title">Link</h5>
+                            <div class="footer-menu">
+                                <a href="#">About us</a>
+                                <a href="#">Service</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Support Center</a>
+                                <a href="#">Documentation</a>
+                            </div>
+                        </div>
+                    </div>
 
-                                    <div class="col-md-6 mt-4">
-                                        <button type="button"
-                                            class="Btn primary-btn primary-btn-lg btnwithicon  submit-btn text-center">Submit
-                                            Ticket <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="footer-item newsletter">
+                            <h5 class="footer-item-title">Sign up for the newsletter</h5>
+                            <form action="" class="newsletter-form">
+                                <div class="newsletter-form-box">
+                                    <input type="text" placeholder="Email address">
+                                    <button type="button">Submit</button>
+                                </div>
+
+                                <div class="form-check form-check-inline mt-4">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                        value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">I’m okay with getting
+                                        emails
+                                        and having that activity tracked to improve my experience.</label>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-xl-4 col-lg-5 col-md-8">
-                            <div class="">
-                                <a class="site-logo">
-                                    <img src="./assets/images/osticket-supsys-sm.png" alt="">
-                                </a>
-        
-                                <div class="mt-4">
-                                    <h5 class=" footer-item-title">
-                                        we are on social media
-                                    </h5>
-                                    <p class="fs-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                                        ratione pariatur iste
-                                        quae
-                                        voluptatum rem.</p>
-        
-                                    <div class="footer-social">
-                                        <a href="#" class="contact-icon"><i class="bi bi-google"></i></a>
-                                        <a href="#" class="contact-icon"><i class="bi bi-facebook"></i></a>
-                                        <a href="#" class="contact-icon"><i class="bi bi-linkedin"></i></a>
-                                        <a href="#" class="contact-icon"><i class="bi bi-twitter"></i></a>
-                                        <a href="#" class="contact-icon"><i class="bi bi-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="col-xl-3 offset-xl-1 col-lg-3 col-md-4 offset-md-0">
-                            <div class="footer-item">
-                                <h5 class="footer-item-title">Necessary Link</h5>
-                                <div class="footer-menu">
-                                    <a href="#">About us</a>
-                                    <a href="#">Service</a>
-                                    <a href="#">Contact</a>
-                                    <a href="#">Support Center</a>
-                                    <a href="#">Documentation</a>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="col-xl-4 col-lg-4 col-md-12">
-                            <div class="footer-item newsletter">
-                                <h5 class="footer-item-title">Sign up for the newsletter</h5>
-                                <form action="" class="newsletter-form">
-                                    <div class="newsletter-form-box">
-                                        <input type="text" placeholder="Email address">
-                                        <button type="button">Submit</button>
-                                    </div>
-        
-                                    <div class="form-check form-check-inline mt-4">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">I’m okay with getting
-                                            emails
-                                            and having that activity tracked to improve my experience.</label>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <script src="./js/nice-select.min.js"></script>
-        <script src="./js/script.js"></script>
-    </body>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/nice-select.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
 
 </html>
