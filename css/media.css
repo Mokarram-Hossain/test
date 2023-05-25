@@ -267,12 +267,27 @@
 
 @media only screen and (min-width: 576px) {
 
+  .breadcrumb-title{
+    font-size: 36px;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  .ticket-form {
+    padding: 30px 25px;
+  }
+  .creat-ticket-info {
+    padding: 30px 25px;
+    background-color: var(--white);
+    border-radius: var(--radius-4);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 0px 0px;
+  }
   .replay-container {
     padding: 25px 20px;
   }
 
   .banner-wrapper{
-    padding: 120px 10px;
+    padding: 120px 10px 70px 10px;
   }
 
   .questions-left .nav-link {
@@ -282,6 +297,26 @@
 
 /* Medium devices (landscape tablets, 768px and 991px) */
 @media only screen and (min-width: 768px) {
+
+  .contact-item{
+    padding: 30px;
+  }
+
+  .creat-ticket-info h4{
+    font-size: 20px;
+  }
+
+  .custiom-accordion .accordion-button {
+    font-size: 18px;
+  }
+
+  .section-title > .sub-title {
+    font-size: 14px;
+  }
+
+  .inner-banner{
+    padding: 170px 10px 100px 10px;
+   }
 
   .contact-option > h4 {
     font-size: 24px;
@@ -309,7 +344,7 @@
   }
 
   .banner-wrapper{
-    padding: 150px 10px;
+    padding:  150px 10px 100px 10px;
   }
 
   .section-title > .sec-title {
@@ -327,13 +362,13 @@
 
   .footer {
     margin-top: 75px;
-    padding: 50px 0;
+    padding: 50px 10px;
   }
   /* =====================================
            Create Ticket Page Start
   ===================================== */
   .ticket-form {
-    padding: 40px 35px;
+    padding: 40px 30px;
   }
   .ticket-notification {
     display: inline-block;
@@ -344,6 +379,14 @@
 
 /* Large devices (laptops/desktops, 992px and 1199px) */
 @media only screen and (min-width: 992px) {
+
+  .banner-wrapper{
+    padding: 200px 10px 150px 10px;
+  }
+
+  .breadcrumb-title{
+    font-size: 40px;
+  }
 
   .banner-img{
     margin-top: 0px;
@@ -411,9 +454,6 @@
         Banner Section Start
   ===================================== */
 
-  .banner-wrapper{
-    padding: 200px 10px;
-  }
   .banner-content > h5 {
     margin-bottom: 20px;
     font-size: 18px;
@@ -443,7 +483,7 @@
     padding: 60px 0;
   }
   .ticket-form {
-    padding: 50px 45px;
+    padding: 45px 30px;
 }
   .form-inner {
     margin-bottom: 20px;
@@ -489,6 +529,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  .ticket-form {
+    padding: 45px 35px;
+}
   .pt-100 {
     padding-top: 100px;
   }
